@@ -117,6 +117,15 @@ bierner.markdown-mermaid
 
 # 범위를 초과하지만 VScode를 편하게 다루기
 
+## 일시키는 법
+https://www.youtube.com/shorts/_vNt04DimtU
+
+## 이미지를 옆 폴더에서 드레그 앤 드롭으로 추가할 수 있습니다.
+
+## 목차이동
+
+https://www.youtube.com/shorts/_5EviVsd0Xo
+
 ## Math
 
 프론트엔드 엔지니어가 px를 rem으로 변환하는 경우가 많이 있습니다. 예전에 같이 일했던 로아 좋아하던 개발자분은 [암산](https://www.youtube.com/watch?v=8dE4mRlBP5M)으로 해결했니다.
