@@ -91,14 +91,14 @@ bierner.markdown-mermaid
 |내용 5|내용 6|내용 7|내용 8|
 |내용 9|내용 10|내용 11|내용 12|
 
+이런식으로 표를 작성할 수 있습니다.
 
 
 # 각주
 
-이런식으로 주석을 달 수 있습니다.<sup>[1](#footnote_1)</sup>
+이런식으로 주석을 달 수 있습니다.<sup>[2](#footnote_2)</sup>
 
-<!-- 글 뒷 부분에 -->
-<a name="footnote_1">1</a>: [여기 링크를 참고했습니다.](https://lynmp.com/ko/article/nu86c16d8f09c9fbd8)
+
 
 
 각주는 글의 앞 부분 뒷 부분 작성하는 법 모두 알아야 합니다.
@@ -130,7 +130,7 @@ https://www.youtube.com/shorts/_5EviVsd0Xo
 
 프론트엔드 엔지니어가 px를 rem으로 변환하는 경우가 많이 있습니다. 예전에 같이 일했던 로아 좋아하던 개발자분은 [암산](https://www.youtube.com/watch?v=8dE4mRlBP5M)으로 해결했니다.
 
-Emmet: evaluate math expression<sup>[2](#)</sup>으로 계산을 처리할 수 있습니다.
+Emmet: evaluate math expression<sup>[3](#footnote_3)</sup>으로 계산을 처리할 수 있습니다.
 
 예를 들어
 ```CSS
@@ -148,5 +148,12 @@ Emmet: evaluate math expression<sup>[2](#)</sup>으로 계산을 처리할 수 �
 ```
 
 
+<!-- 글 뒷 부분에 -->
 
-<a name="주석이름">2</a>: 출처: [No calculator required - VScode - Youtube](https://www.youtube.com/shorts/dCsmH5BfpdQ)
+
+
+<a name="footnote_1">1</a>: [여기 링크를 참고했습니다.](https://lynmp.com/ko/article/title/markdown-table-om811c9dc5oi)
+
+<a name="footnote_2">2</a>: [여기 링크를 참고했습니다.](https://lynmp.com/ko/article/nu86c16d8f09c9fbd8)
+
+<a name="footnote_3">3</a>: 출처: [No calculator required - VScode - Youtube](https://www.youtube.com/shorts/dCsmH5BfpdQ)
