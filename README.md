@@ -60,6 +60,19 @@ func main() {
 
 마크다운에서는 html처럼 `<video />` 태그를 따로 지원해주고 있는 것은 아닙니다.
 
+
+```md
+<p align="center">
+<img src="./img/Soyjak_Meme_Javascript.png" width="400px">
+</p>
+```
+이미지는 이런식으로 추가할 수 있습니다.
+
+```
+![이미지](../img/img.jpeg)
+```
+이런식으로도 추가가 가능합니다.
+
 # mermaid
 
 문서에 코드로 차트를 빠르게 그릴 때 유용한 기능입니다.
