@@ -6,6 +6,13 @@
 
 물론 가끔 없는 내용도 없을 것입니다. 그때 검색하고 여기에 추가하고 정리하면 검색 빈도가 줄어들지 않을까요?
 
+# 주석을 추가하는 방법
+
+```md
+<!-- 마크다운 주석 -->
+```
+놀랍게도 HTML 주석과 동일합니다. 문서 자체도 설계하고 교정, 피드백에 활용할 수 있습니다.
+
 # Heading
 
 ```markdown
@@ -19,12 +26,69 @@
 
 VScode 상단을 확인해보면 마크다움 Heading으로 목차를 쉽게 돌아다닐 수 있습니다.
 
-# 주석을 추가하는 방법
+# Check Box
+```md
+- [ ] 빈 체크박스
+- [x] 채워진 체크박스
+```
+- [ ] 빈 체크박스
+- [x] 채워진 체크박스
+
+# 취소선
+```md
+~~(내용)~~
+```
+
+# 강조
+html의 `<strong></strong>`랑 비슷합니다.
 
 ```md
-<!-- 마크다운 주석 -->
+**(내용)**
 ```
-놀랍게도 HTML 주석과 동일합니다. 문서 자체도 설계하고 교정, 피드백에 활용할 수 있습니다.
+
+# 구분선
+구분선은 `---`으로 간단하게 만들 수 있습니다.
+```md
+---
+```
+
+---
+
+# codepen.io 임베드
+<div>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYNyEwo" data-user="kimsanghyun" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/kimsanghyun/pen/zYNyEwo">
+  full background에 글자 중앙 정렬</a> by 김상현 (<a href="https://codepen.io/kimsanghyun">@kimsanghyun</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+
+- [ ] 마크다운 Cook Book 정리하기
+    - [ ] 마크다운 접었다 펼첬다 기능 추가하기
+    - [ ] 마크다운 구분선
+    - [ ] codepen.io 임베드
+
+# Toggle
+
+```md
+<details>
+<div markdown="1">
+# 1 제목 내용
+</div>
+</details>
+```
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="1">
+
+|제목|내용|
+|--|--|
+|1|1|
+|2|10|
+
+</div>
+</details>
 
 # 인용문
 
