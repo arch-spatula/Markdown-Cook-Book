@@ -55,6 +55,9 @@ html의 `<strong></strong>`랑 비슷합니다.
 ---
 
 # codepen.io 임베드
+
+github pages에서만 가능하기 때문에 나중에 다시 작성하겠습니다.
+
 <div>
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYNyEwo" data-user="kimsanghyun" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/kimsanghyun/pen/zYNyEwo">
@@ -64,15 +67,11 @@ html의 `<strong></strong>`랑 비슷합니다.
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 </div>
 
-- [ ] 마크다운 Cook Book 정리하기
-    - [ ] 마크다운 접었다 펼첬다 기능 추가하기
-    - [ ] 마크다운 구분선
-    - [ ] codepen.io 임베드
-
 # Toggle
 
 ```md
 <details>
+<summary>요약</summary>
 <div markdown="1">
 # 1 제목 내용
 </div>
