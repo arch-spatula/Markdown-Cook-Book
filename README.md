@@ -32,6 +32,12 @@
 
 VScode 상단을 확인해보면 마크다움 Heading으로 목차를 쉽게 돌아다닐 수 있습니다.
 
+# 목차 만들기
+
+[목차 텍스트](#링크걸린-텍스트)
+
+## 링크걸린 텍스트
+
 # Check Box
 
 ```md
@@ -47,6 +53,8 @@ VScode 상단을 확인해보면 마크다움 Heading으로 목차를 쉽게 돌
 ```md
 ~~(내용)~~
 ```
+
+~~(내용)~~
 
 # 강조
 
@@ -90,6 +98,16 @@ html의 `<strong></strong>`랑 비슷합니다.
 ├── astro.config.mjs
 ├── package.json
 └── tsconfig.json
+```
+
+하지만 이런거 하지말고 tree 다운받고 봅시다.
+
+https://snowdeer.github.io/mac-os/2017/04/02/install-tree-on-mac/
+
+https://formulae.brew.sh/formula/tree
+
+```sh
+tree -I node_modules
 ```
 
 # codepen.io 임베드
@@ -228,44 +246,32 @@ bierner.markdown-mermaid
 
 글 뒷부분은 이렇게 표시합니다.
 
-# 범위를 초과하지만 VScode를 편하게 다루기
-
-## 일시키는 법
-
-https://www.youtube.com/shorts/_vNt04DimtU
-
-## 이미지를 옆 폴더에서 드레그 앤 드롭으로 추가할 수 있습니다.
-
-## 목차이동
-
-https://www.youtube.com/shorts/_5EviVsd0Xo
-
-## Math
-
-프론트엔드 엔지니어가 px를 rem으로 변환하는 경우가 많이 있습니다. 예전에 같이 일했던 로아 좋아하던 개발자분은 [암산](https://www.youtube.com/watch?v=8dE4mRlBP5M)으로 해결했니다.
-
-Emmet: evaluate math expression<sup>[3](#footnote_3)</sup>으로 계산을 처리할 수 있습니다.
-
-예를 들어
-
-```CSS
-.R-24{
-    border-radius: 24/16rem;
-}
-```
-
-여기 코드에서 24/16을 드레그하고 Emmet: evaluate math expression를 실행하면 아래처럼 바뀝니다.
-
-```CSS
-.R-24{
-    border-radius: 1.5rem;
-}
-```
-
 <!-- 글 뒷 부분에 -->
 
 <a name="footnote_1">1</a>: [여기 링크를 참고했습니다.](https://lynmp.com/ko/article/title/markdown-table-om811c9dc5oi)
 
 <a name="footnote_2">2</a>: [여기 링크를 참고했습니다.](https://lynmp.com/ko/article/nu86c16d8f09c9fbd8)
 
-<a name="footnote_3">3</a>: 출처: [No calculator required - VScode - Youtube](https://www.youtube.com/shorts/dCsmH5BfpdQ)
+---
+
+# Icons
+
+https://simpleicons.org/
+
+```txt
+https://img.shields.io/badge/{배지이름}-{HEX}?style={스타일}&logo={로고}&logoColor={로고컬러}
+```
+
+```html
+<img
+  src="https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=GO&logoColor=white"
+/>
+```
+
+<img src="https://img.shields.io/badge/golang-00ADD8?style=for-the-badge&logo=GO&logoColor=white">
+
+이렇게 만들 수 있습니다.
+
+# 마크다운으로 PPT를 대신할 수 있습니다.
+
+https://www.youtube.com/watch?v=Q2PCO0mKEaU
